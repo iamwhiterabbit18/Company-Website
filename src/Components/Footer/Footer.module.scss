@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 10rem;
+    div{
+        display: flex;
+        gap: 2rem;
+
+        a{
+            border-radius: 5px;
+            padding: 10px;
+            background-image: linear-gradient(rgb(0 0 0/55%) 0 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a:hover{
+            background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+        }
+    }
+    h2{
+        font-size: 2rem;
+        color: white;
+    }
+}

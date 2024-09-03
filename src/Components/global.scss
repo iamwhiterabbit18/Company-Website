@@ -1,20 +1,24 @@
-section{
-    border: 2px solid black;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
+*{
+    --primary: #F24333;
+    --secondary: '';
+
+    --text-1: #F7F4F3;
+    --text-2: #737373;
+
+    font-family: 'Rajdhani', sans-serif;
+    --bold: 700;
+    --semibold: 600;
+    --medium: 500;
 }
-footer{
-    position: relative;
-    width: 100vw;
-    height: 50vh;
-    background-color: navy;
-}
+
 h1{
     font-size: 5rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+}
+
+.bg-white{
+    
+}
+
+.bg-red{
+
 }
