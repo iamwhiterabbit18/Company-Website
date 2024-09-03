@@ -18,6 +18,7 @@ If there are reusable element/s inside a component, make it as a new component/s
 
 ## Built with
 * React
+* Framer Motion
 * Tailwind
 * SCSS
 ## Authors
